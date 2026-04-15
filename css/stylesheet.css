@@ -1,0 +1,429 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/* header */
+/* headrerbackground image */
+.bg-image {
+    background-image: url(Images/home-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-width: 100vh; */
+    /* height: 100vh; */
+    padding-bottom: 80px;
+}
+/* yellow color variable */
+.yellow-color {
+    color: #FEB747;
+}
+/* all buttons circle */
+.button {
+    width: 130px;
+    height: 35px;
+    font-size: 12px !important;
+    font-weight: 600 !important; 
+    border: none;   
+    border-radius: 20px;
+}
+/* hover effect on button */
+.button:hover {
+    background-color: #FEB747;
+}
+/* login button */
+.login-btn {
+    color: white;
+} 
+.login-btn:hover {
+    color: #FEB747;
+}
+/* Default nav links */
+.navbar-nav .nav-link {
+    color: white; /* non-active links */
+    transition: color 0.3s ease;
+}
+/* Optional: Hover effect */
+.navbar-nav .nav-link:hover {
+    color:  #FEB747; /* lighter yellow on hover */
+}
+/* heading 0 */
+.heading-0 h1 {
+    font-size: 67px;
+}
+/* section 1 */
+/* heading 1 */
+.heading-1 h1{
+    font-size: 45px;
+    font-weight: 600px;   
+}
+/* section 3 */
+/* card */
+.home-card {
+    /* background-color: #408AF7; */
+    max-width:320px;
+}
+/* price  */
+.price {
+    font-size: 50px !important;
+    font-weight: 800 !important;
+}
+
+/* section 4 */
+.section-4 {
+    background-color: #EBF5FD99;
+}
+
+.yellow-gradient {
+    background-color: #F7CF90;
+}
+/* section 5 */
+.section-5-image {
+    background-image: url(Images/feature\ sec5-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 540px; */
+}
+/* section 6 */
+/* .section-6-image {
+    background-image: url(images/section6-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+/* Hide background image on small screens */
+/* @media (max-width: 575.98px) {
+    .section-6-image {
+        background-image: none;
+    }
+} */
+
+.section-6-image {
+    background-image: url("Images/section6-1.png");
+    background-size: cover;
+    background-position: center;
+    /* padding: 40px; */
+    border-radius: 12px;
+     padding: 180px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Remove background image ONLY on small screens */
+@media (max-width: 575.98px) {
+    .section-6-image {
+        background-image: none;   /* 👈 image gone */
+        /* background-color: #000;  */
+          /* optional, text stays readable */
+        color: black;
+          text-align: center;
+    }
+
+    .section-6-image .d-flex {
+        justify-content: center;
+    }
+}
+
+/* footer */
+.footer-image {
+    background-image: url(Images/footer-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 540px; */
+}
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+/* about us page */
+/* about background image header */
+
+.ab-bg-image {
+    background-image: url(Images/about-us\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-width: 100vh; */
+    /* height: 250px; */
+    padding-bottom: 80px;
+}
+/* section 1 */
+.about-section-1-card {
+    /* background-color: #408AF7; */
+    max-width:300px;
+ 
+}
+.about-section-1-card:hover {
+    background-color: #6AAAF6;
+}
+
+/* section 2 */
+.ab-section-2-bg-img {
+     background-image: url(Images/feature\ sec5-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* section 3 */
+.about-section-3-card {
+    /* background-color: #408AF7; */
+    max-width:300px;
+ 
+}
+.bg-light-grey {
+    background-color: #EFF6FB;
+}
+
+/*expand text */
+.custom-wrapper{
+    /* background:#dfe3e8;   */
+}
+.qa{
+    background:#dfe3e8;  
+}
+
+
+.custom-btn{
+    background: transparent;
+    color:#000;
+    font-size:20px;
+    padding:18px 20px;
+}
+
+.accordion-button::after{
+    display:none;
+}
+
+/* Remove Bootstrap blue background */
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+
+.accordion-item{
+    background-color: #dfe3e8;
+    margin-bottom: 20px;   /* creates gap */
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+}
+
+
+/* Custom + / - icon */
+.icon{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.accordion-button:not(.collapsed) .plus{
+    display:none;
+}
+.accordion-button:not(.collapsed) .minus{
+    display:inline;
+}
+
+.minus{
+    display:none;
+}
+
+.accordion-body{
+    background:#dfe3e8;  
+    font-size:18px;
+    line-height:1.7;
+}
+
+/* error page */
+.error-heading {
+    font-size: 50px;
+}
+/* ============================= */
+/* LOGO ANIMATION SECTION */
+/* ============================= */
+
+/* Container for logo animation (currently empty) */
+.animate-logo{
+    /* width: 200px; */
+}
+
+/* First logo (moves up and down) */
+.logo1{
+    position: relative;       /* Allows movement using top/bottom/left/right */
+    bottom: 35px;             /* Moves element 35px upward */
+    left:56px;                /* Moves element 56px to the right */
+    animation: logoAnimate 3s ease infinite;  /* Apply animation */
+    width: 30px;              /* Set small width */
+}
+
+/* Keyframes for vertical movement */
+@keyframes logoAnimate {
+    0%, 100% {
+        transform: translateY(0px);   /* Normal position */
+    }
+    50% {
+        transform: translateY(30px);  /* Move down 30px */
+    }
+}
+
+/* Second logo (tilting animation) */
+.logo2{
+    animation: logoMove 3s ease-in-out infinite; /* Smooth tilt animation */
+    position: relative;                          /* Needed for movement */
+    transform-origin: left bottom;               /* Rotate from bottom-left corner */
+}
+
+/* Keyframes for tilting effect */
+@keyframes logoMove{
+    0%, 100% {
+        transform: rotate(0deg);   /* Normal position */
+    }
+    50% {
+        transform: rotate(10deg);  /* Tilt 10 degrees */
+    }
+}
+
+/* ============================= */
+/* DEFAULT (SMALL SCREENS) */
+/* ============================= */
+
+/* Show animate0 on small screens */
+.animate0 {
+    display: block;
+}
+
+/* Hide animate1 on small screens */
+.animate1 {
+    display: none;
+}
+
+
+
+/* Monitor element layering */
+.monitor{
+    position: relative;   /* Keeps it in normal flow but allows layering */
+    z-index: 2;           /* Places it above lower z-index elements */
+}
+
+/* ============================= */
+/* DESKTOP STYLES (>= 992px) */
+/* ============================= */
+
+@media only screen and (min-width:992px) 
+{   
+
+    /* Cloud animation */
+    .cloud{
+        z-index: 3;                   /* Appear above most elements */
+        position: absolute;           /* Remove from normal flow */
+        right: 175px;                 /* Position from right */
+        top: 85px;                    /* Position from top */
+        animation: moveUpDown 4s linear infinite;  /* Vertical animation */
+    }
+
+    /* Cloud vertical movement */
+    @keyframes moveUpDown {
+        0% { top: 85px; }     /* Starting position */
+        50% { top: 120px; }   /* Move downward */
+        100% { top: 85px; }   /* Return to start */
+    }
+    
+
+    /* Rotating wheel */
+    .wheel1{
+        z-index: 1;                   /* Behind some elements */
+        position: absolute;           /* Absolute positioning */
+        top: 126px;                   /* Distance from top */
+        right: 454px;                 /* Distance from right */
+        width: 150px;                 /* Set width */
+        animation: rotateAround 10s linear infinite;  /* Continuous rotation */
+    }
+
+    /* Wheel full rotation */
+    @keyframes rotateAround {
+        0% {
+            transform: rotate(0deg);      /* Start */
+        }
+        100% {
+            transform: rotate(360deg);    /* Full circle */
+        }
+    }
+
+
+    /* Element moving in X and Y direction */
+    .p1-down{
+        position: absolute;         /* Absolute positioning */
+        right: 440px;               /* Start horizontal position */
+        top: 320px;                 /* Start vertical position */
+        z-index: 2;                 /* Layer control */
+        width: 200px;               /* Set width */
+        animation: moveX 2s linear infinite,  /* Horizontal movement */
+                   moveY 4s linear infinite;  /* Vertical movement */
+    }
+
+    /* Horizontal movement */
+    @keyframes moveX {
+        0% { right: 440px; }
+        50% { right: 420px; }   /* Move left */
+        100% { right: 440px; }  /* Return */
+    }
+
+    /* Vertical movement */
+    @keyframes moveY {
+        0% { top: 320px; }
+        50% { top: 340px; }     /* Move down */
+        100% { top: 320px; }    /* Return */
+    }
+    
+
+    /* Second moving element (horizontal only) */
+    .p2-up{
+        position: absolute;         /* Absolute positioning */
+        right: 87px;                /* Start horizontal position */
+        top: 225px;                 /* Start vertical position */
+        z-index: 2;                 /* Layer control */
+        height: 300px;              /* Set height */
+        width: 150px;               /* Set width */
+        animation: PtwoX 3s linear infinite;  /* Horizontal animation */
+    }
+
+    /* Horizontal movement animation */
+    @keyframes PtwoX {
+        0% { right: 87px; }
+        50% { right: 120px; }   /* Move left */
+        100% { right: 87px; }   /* Return */
+    }
+
+
+    /* ============================= */
+    /* EXTRA LARGE SCREENS (>=992px) */
+    /* ============================= */
+
+    @media only screen and (min-width:992px) {
+
+        /* Hide animate0 */
+        .animate0 {
+            display: none;
+        }
+
+        /* Show animate1 */
+        .animate1 {
+            display: block;
+            /* position: relative;  */
+            /* Useful if you want absolute children inside */
+        }
+
+    }
+
+}
